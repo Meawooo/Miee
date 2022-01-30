@@ -37,7 +37,7 @@ module.exports = {
       .setThumbnail(message.guild.icon)
       .setTitle(`**Leaderboard**:`)
       .setDescription(`\n\n${lb.join("\n\n")}`)
-      .setFooter("Coded By Tech Boy Gaming");
+      .setFooter("Made with 💖 by araan_sheikh#4416");
     message.channel.send(lb2);
   },
 };

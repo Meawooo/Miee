@@ -29,7 +29,7 @@ module.exports = {
         .setThumbnail(
           "https://media.tenor.com/images/610d120b3b048f6487ad7555e94591bc/tenor.gif"
         )
-        .setFooter("Coded By Tech Boy Gaming");
+        .setFooter("Made with 💖 by araan_sheikh#4416");
       message.channel.send(checklevel);
     });
   },
