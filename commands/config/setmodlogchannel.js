@@ -30,7 +30,7 @@ module.exports = {
     let webhookid;
     let webhooktoken;
     await channel
-      .createWebhook("Rock lOGGER", {
+      .createWebhook("Aracale lOGGER", {
         avatar: message.guild.iconURL({ format: "png" }),
       })
       .then((webhook) => {
