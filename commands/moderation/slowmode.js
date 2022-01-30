@@ -23,7 +23,7 @@ module.exports = {
           .setDescription(
             "**You Dont Have The Permissions To Warn Users! - [MANAGE_MESSAGES]**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
     if (isNaN(amount))
@@ -32,7 +32,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**Please Give Valid Time...**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     if (args[0] === amount + "s") {
@@ -44,7 +44,7 @@ module.exports = {
             .setColor("RED")
             .setAuthor(message.author.tag)
             .setDescription(`** slowmode is now ${amount} Seconds... **`)
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         );
     }
 
@@ -57,7 +57,7 @@ module.exports = {
             .setColor("RED")
             .setAuthor(message.author.tag)
             .setDescription(`** slowmode is now ${amount} Minutes... **`)
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         );
     }
     if (args[0] === amount + "h") {
@@ -69,7 +69,7 @@ module.exports = {
             .setColor("RED")
             .setAuthor(message.author.tag)
             .setDescription(`** slowmode is now ${amount} Hours... **`)
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         );
     } else {
       message.channel.send(
@@ -79,7 +79,7 @@ module.exports = {
           .setDescription(
             `** You can only set seconds(s), minutes(min) and hours(h) **`
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
   },

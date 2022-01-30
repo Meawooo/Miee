@@ -6,7 +6,7 @@ module.exports = {
   aliases: ["setnickname", "nick"],
   description:
     "Sets a nickname for the mentioned user or provided ID from this guild",
-  example: `nickname @kabu or !!nickname @kabir "Cool"`,
+  example: `nickname @user "Cool"`,
   category : "moderation",
   /**
    * @param {Client} client

@@ -3,7 +3,7 @@ const db = require("quick.db");
 
 module.exports = {
   name: "warns",
-  aliases: ["dhamkiya"],
+  aliases: [""],
   description: "Get the warnings of yours or mentioned person",
   useage: "warns <user>",
   category : "moderation",
@@ -21,7 +21,7 @@ module.exports = {
           .setDescription(
             "**You Dont Have The Permissions To Warn Users! - [ADMINISTRATOR]**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
 
@@ -37,7 +37,7 @@ module.exports = {
           .setDescription(
             "**Please Mention the person to who you want to Show Warns - warns @mention **"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
 
@@ -47,7 +47,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**You can not Check The warns of bots**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
 
@@ -63,7 +63,7 @@ module.exports = {
         .setDescription(
           `** ${user.user.username} Have ${warnings} warning's **`
         )
-        .setFooter("Coded by: Tech Boy Gaming")
+        .setFooter("Made with 💖 by araan_sheikh#4416")
     );
   },
 };

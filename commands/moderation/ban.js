@@ -2,7 +2,7 @@ const { Client, Message, MessageEmbed } = require("discord.js");
 
 module.exports = {
   name: "ban",
-  aliases: ["jabsdk"],
+  aliases: [""],
   description: "Bans a Member from a Guild",
   usage: "ban @User",
   category : "moderation",
@@ -20,7 +20,7 @@ module.exports = {
           .setDescription(
             "**You Dont Have The Permissions To Mute Users! - [BAN_MEMBERS]**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     let banMember =
@@ -34,10 +34,10 @@ module.exports = {
           `
                                 **Name** : ban\n
                                 **Description** :Bans a Member from a Guild\n
-                                **aliases** : jabsdk\n
+                                **aliases** : 
                                 **usage**: ban <@user/ID> [reason]\n `
         )
-        .setFooter("Coded by: Tech Boy Gaming")
+        .setFooter("Made with 💖 by araan_sheikh#4416")
         .setTimestamp();
       return message.channel.send(missingArgs);
     }
@@ -50,13 +50,13 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("I dont have the permissions to ban users!")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     let Sembed = new MessageEmbed()
       .setColor("RED")
       .setAuthor(banMember.user.tag)
-      .setFooter("Coded by: Tech Boy Gaming")
+      .setFooter("Made with 💖 by araan_sheikh#4416")
       .setThumbnail(banMember.user.displayAvatarURL())
       .setDescription(
         `> You've been banned from ${message.guild.name} because of ${reason}. You are permanently banned.`
@@ -73,7 +73,7 @@ module.exports = {
         let embed = new MessageEmbed()
           .setColor("RED")
           .setAuthor(banMember.user.tag)
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
           .setThumbnail(banMember.user.displayAvatarURL())
           .setDescription(`✅ **${banMember.user.tag}** successfully banned!`);
         if (i == 1) return message.reply("MISSING PERMISSIONS TO BAN HIM!");

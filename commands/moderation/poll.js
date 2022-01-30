@@ -23,13 +23,13 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setTitle("**Please Enter A Query!**")
-          .setFooter(`Coded By Tech Boy Gaming`)
+          .setFooter(`Made with 💖 by araan_sheikh#4416`)
       );
 
     const embed = new MessageEmbed()
       .setColor("GREEN")
       .setTitle(`Poll For ${message.guild.name} Sever`)
-      .setFooter(`Coded By Tech Boy Gaming`)
+      .setFooter(`Made with 💖 by araan_sheikh#4416`)
       .setDescription(args.join(" "));
     var msg = await message.channel.send(embed);
 

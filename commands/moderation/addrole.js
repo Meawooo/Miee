@@ -22,7 +22,7 @@ module.exports = {
           .setDescription(
             "**You Dont Have The Permissions To Add Roles To Users! - [MANAGE_ROLES]**"
           )
-          .setFooter(ee.footertext, ee.footericon)
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     if (!message.guild.me.permissions.has("MANAGE_ROLES"))
       return message.channel.send(
@@ -32,7 +32,7 @@ module.exports = {
           .setDescription(
             " **I Dont Have The Permissions To Add Roles To Users! - [MANAGE_ROLES]**> "
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     if (!args[0])
@@ -41,7 +41,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**Please Enter A Role!**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     let rMember =
@@ -59,7 +59,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**Please Enter A User Name!**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     if (
       rMember.roles.highest.comparePositionTo(message.guild.me.roles.highest) >=
@@ -70,7 +70,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**Cannot Add Role To This User!**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     let role =
@@ -86,7 +86,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**Please Enter A Role!**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     if (!role)
@@ -95,7 +95,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**Could Not Find That Role!**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     if (role.managed)
@@ -104,7 +104,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**Cannot Add That Role To The User!**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     if (message.guild.me.roles.highest.comparePositionTo(role) <= 0)
       return message.channel.send(
@@ -114,7 +114,7 @@ module.exports = {
           .setDescription(
             "**Role Is Currently Higher Than Me Therefore Cannot Add It To The User!**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     if (rMember.roles.cache.has(role.id))
@@ -125,7 +125,7 @@ module.exports = {
           .setDescription(
             "**Role Is Currently Higher Than Me Therefore Cannot Add It To The User!**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     message.channel.send();
     if (!rMember.roles.cache.has(role.id)) await rMember.roles.add(role.id);

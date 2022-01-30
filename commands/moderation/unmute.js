@@ -4,7 +4,7 @@ const Schema = require("../../utils/models/mute");
 
 module.exports = {
   name: "unmute",
-  aliases: ["ole"],
+  aliases: ["um"],
   description: "Unmute a Muted User!",
   useage: "unmute @User",
   category : "moderation",
@@ -22,7 +22,7 @@ module.exports = {
           .setDescription(
             "**You Dont Have The Permissions To Mute Users! - [ADMINISTRATOR]**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     let member = message.mentions.members.first();
@@ -34,7 +34,7 @@ module.exports = {
           .setDescription(
             "**ERROR, please ping a USER! Usage: `mute @User <Time> [REASON]` example: `mute @User 10m He is doing bad stuff!`**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     args.shift(); //shift args
 
@@ -48,7 +48,7 @@ module.exports = {
           .setDescription(
             "**:x: I cannot mute this Member, because he is higher/Equal to your Rang Position!**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
 
@@ -60,7 +60,7 @@ module.exports = {
           .setDescription(
             "**I need the permission, to Manage Roles aka give roles**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     let allguildroles = message.guild.roles.cache.array();
@@ -80,7 +80,7 @@ module.exports = {
           .setDescription(
             "**:x: You never muted someone, there is no muted role yet!**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
     if (
@@ -94,7 +94,7 @@ module.exports = {
           .setDescription(
             "**:x: I cannot access the Role, because it's above me!**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
     Schema.findOne(
@@ -110,7 +110,7 @@ module.exports = {
               .setDescription(
                 "**:x: You never muted someone, there is no muted role yet!**"
               )
-              .setFooter("Coded by: Tech Boy Gaming")
+              .setFooter("Made with 💖 by araan_sheikh#4416")
           );
         const user = data.Users.findIndex((prop) => prop === member.id);
         if (user == -1)
@@ -121,7 +121,7 @@ module.exports = {
               .setDescription(
                 "**:x: You never muted someone, there is no muted role yet!**"
               )
-              .setFooter("Coded by: Tech Boy Gaming")
+              .setFooter("Made with 💖 by araan_sheikh#4416")
           );
         data.Users.splice(user, 1);
       }
@@ -134,7 +134,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**Something went wrong!**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
     let embed = new MessageEmbed()

@@ -30,7 +30,7 @@ module.exports = {
             .setDescription(
               ` 🥺 You don't have **MANAGE_MESSAGES** premssions to use this command.`
             )
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
             .setTimestamp()
         );
 
@@ -54,9 +54,9 @@ module.exports = {
         .setAuthor(message.author.tag)
         .setThumbnail(message.author.displayAvatarURL())
         .setDescription(
-          ` 😂😂 You can only delete the messages which are not older than 14 days.`
+          ` You can only delete the messages which are not older than 14 days.`
         )
-        .setFooter("Coded by: Tech Boy Gaming")
+        .setFooter("Made with 💖 by araan_sheikh#4416")
         .setTimestamp();
 
       const embd = new MessageEmbed()
@@ -88,7 +88,7 @@ module.exports = {
           9000,
           message,
           config.colors.no,
-          "😂😂 Please enter a number of messages to purge."
+          "Please enter a number of messages to purge."
         );
       if (!amount || amount < 2 || amount > 100)
         return functions.embedbuilder(
@@ -96,7 +96,7 @@ module.exports = {
           9000,
           message,
           config.colors.no,
-          "😂😂 Please enter a number of message between 2 and 100."
+          "Please enter a number of message between 2 and 100."
         );
       if (!args[1]) {
         try {
@@ -112,7 +112,7 @@ module.exports = {
                   dynamic: true,
                 })
               )
-              .setFooter("Coded by: Tech Boy Gaming");
+              .setFooter("Made with 💖 by araan_sheikh#4416");
 
             message.channel
               .send(embed)
@@ -150,7 +150,7 @@ module.exports = {
                         dynamic: true,
                       })
                     )
-                    .setFooter("Coded by: Tech Boy Gaming");
+                    .setFooter("Made with 💖 by araan_sheikh#4416");
 
                   message.channel
                     .send(embed)
@@ -185,7 +185,7 @@ module.exports = {
                         dynamic: true,
                       })
                     )
-                    .setFooter("Coded by: Tech Boy Gaming");
+                    .setFooter("Made with 💖 by araan_sheikh#4416");
 
                   message.channel
                     .send(embed)
@@ -220,7 +220,7 @@ module.exports = {
                         dynamic: true,
                       })
                     )
-                    .setFooter("Coded by: Tech Boy Gaming");
+                    .setFooter("Made with 💖 by araan_sheikh#4416");
 
                   message.channel
                     .send(embed)
@@ -255,7 +255,7 @@ module.exports = {
                         dynamic: true,
                       })
                     )
-                    .setFooter("Coded by: Tech Boy Gaming");
+                    .setFooter("Made with 💖 by araan_sheikh#4416");
 
                   message.channel
                     .send(embed)
@@ -291,7 +291,7 @@ module.exports = {
                         dynamic: true,
                       })
                     )
-                    .setFooter("Coded by: Tech Boy Gaming");
+                    .setFooter("Made with 💖 by araan_sheikh#4416");
 
                   message.channel
                     .send(embed)
@@ -333,7 +333,7 @@ module.exports = {
                         dynamic: true,
                       })
                     )
-                    .setFooter("Coded by: Tech Boy Gaming");
+                    .setFooter("Made with 💖 by araan_sheikh#4416");
 
                   message.channel
                     .send(embed)
@@ -368,7 +368,7 @@ module.exports = {
                         dynamic: true,
                       })
                     )
-                    .setFooter("Coded by: Tech Boy Gaming");
+                    .setFooter("Made with 💖 by araan_sheikh#4416");
 
                   message.channel
                     .send(embed)
@@ -405,7 +405,7 @@ module.exports = {
                         dynamic: true,
                       })
                     )
-                    .setFooter("Coded by: Tech Boy Gaming");
+                    .setFooter("Made with 💖 by araan_sheikh#4416");
 
                   message.channel
                     .send(embed)
@@ -442,7 +442,7 @@ module.exports = {
                         dynamic: true,
                       })
                     )
-                    .setFooter("Coded by: Tech Boy Gaming");
+                    .setFooter("Made with 💖 by araan_sheikh#4416");
 
                   message.channel
                     .send(embed)
@@ -482,7 +482,7 @@ module.exports = {
                         dynamic: true,
                       })
                     )
-                    .setFooter("Coded by: Tech Boy Gaming");
+                    .setFooter("Made with 💖 by araan_sheikh#4416");
 
                   message.channel
                     .send(embed)
@@ -519,7 +519,7 @@ module.exports = {
                         dynamic: true,
                       })
                     )
-                    .setFooter("Coded by: Tech Boy Gaming");
+                    .setFooter("Made with 💖 by araan_sheikh#4416");
 
                   message.channel
                     .send(embed)

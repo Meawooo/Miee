@@ -22,7 +22,7 @@ module.exports = {
             .setDescription(
               "**You Dont Have The Permissions To Warn Users! - [ADMINISTRATOR]**"
             )
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         )
         .then((msg) => {
           msg.delete({ timeout: 10000 });
@@ -42,7 +42,7 @@ module.exports = {
             .setDescription(
               "**Please Mention the person to who you want to warn - warn @mention <reaosn>**"
             )
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         )
         .then((msg) => {
           msg.delete({ timeout: 10000 });
@@ -56,7 +56,7 @@ module.exports = {
             .setColor("RED")
             .setAuthor(message.author.tag)
             .setDescription("**You can not warn bots**")
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         )
         .then((msg) => {
           msg.delete({ timeout: 10000 });
@@ -70,7 +70,7 @@ module.exports = {
             .setColor("RED")
             .setAuthor(message.author.tag)
             .setDescription("**You can not warn yourself**")
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         )
         .then((msg) => {
           msg.delete({ timeout: 10000 });
@@ -83,8 +83,8 @@ module.exports = {
           new MessageEmbed()
             .setColor("RED")
             .setAuthor(message.author.tag)
-            .setDescription("**BSDK, how you can warn server owner -_-**")
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setDescription("**You can't warn server owner -_-**")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         )
         .then((msg) => {
           msg.delete({ timeout: 10000 });
@@ -102,7 +102,7 @@ module.exports = {
             .setDescription(
               "**Please provide reason to warn - warn @mention <reason>**"
             )
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         )
         .then((msg) => {
           msg.delete({ timeout: 10000 });
@@ -118,7 +118,7 @@ module.exports = {
         .send(
           new MessageEmbed()
             .setColor("RED")
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
             .setAuthor(message.author.tag)
             .setThumbnail(user.user.displayAvatarURL())
             .setDescription(
@@ -132,7 +132,7 @@ module.exports = {
         .send(
           new MessageEmbed()
             .setColor("RED")
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
             .setAuthor(message.author.tag)
             .setThumbnail(user.user.displayAvatarURL())
             .setDescription(
@@ -149,7 +149,7 @@ module.exports = {
         .send(
           new MessageEmbed()
             .setColor("RED")
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
             .setAuthor(message.author.tag)
             .setThumbnail(user.user.displayAvatarURL())
             .setDescription(
@@ -164,7 +164,7 @@ module.exports = {
         .send(
           new MessageEmbed()
             .setColor("RED")
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
             .setAuthor(message.author.tag)
             .setThumbnail(user.user.displayAvatarURL())
             .setDescription(

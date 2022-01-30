@@ -20,7 +20,7 @@ module.exports = {
           .setDescription(
             "**You Dont Have The Permissions To UNBAN Users! - [BAN_MEMBERS]**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     if (isNaN(args[0]))
@@ -29,7 +29,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**You need to provide an ID.**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     let bannedMember = await client.users.fetch(args[0]);
@@ -45,7 +45,7 @@ module.exports = {
           .setDescription(
             "**You Dont Have The Permissions To UNBAN Users! - [BAN_MEMBERS]**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     let reason = args.slice(1).join(" ");
@@ -60,7 +60,7 @@ module.exports = {
       .setDescription(
         `> You've been unbanned from **${message.guild.name}** because of ${reason}. You are permanently Unbanned.`
       )
-      .setFooter("Coded by: Tech Boy Gaming");
+      .setFooter("Made with 💖 by araan_sheikh#4416");
 
     // invite link
 
@@ -75,7 +75,7 @@ module.exports = {
               .setTitle(`${message.guild.name} Join Now`)
               .setDescription(`Invite Link is here \n ${invite.url}`)
               .setImage(message.guild.bannerURL())
-              .setFooter("Coded by: Tech Boy Gaming")
+              .setFooter("Made with 💖 by araan_sheikh#4416")
           )
         );
     } catch (error) {
@@ -87,7 +87,7 @@ module.exports = {
     let embed = new MessageEmbed()
       .setColor("RED")
       .setAuthor(bannedMember.username)
-      .setFooter("Coded by: Tech Boy Gaming")
+      .setFooter("Made with 💖 by araan_sheikh#4416")
       .setThumbnail(client.user.displayAvatarURL())
       .setDescription(`✅ **${bannedMember.username}** successfully Unbanned!`);
     message.channel.send(embed).catch((err) => console.log(err.red));

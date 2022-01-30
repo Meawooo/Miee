@@ -20,7 +20,7 @@ module.exports = {
           .setDescription(
             "**You Dont Have The Permissions To Mute Users! - [BAN_MEMBERS]**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     let bannedCollection = message.mentions.members;
@@ -70,7 +70,7 @@ module.exports = {
                   .map((m) => `**${m.user.tag}**`)
                   .join(", ")} | ${banReason}`
               )
-              .setFooter(`Coded By Tech Boy Gaming`)
+              .setFooter(`Made with 💖 by araan_sheikh#4416`)
           );
         } catch (e) {
           client.logger.log(`Massban failed \n${e}`, "error");

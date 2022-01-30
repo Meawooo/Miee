@@ -22,7 +22,7 @@ module.exports = {
           .setDescription(
             "**You Dont Have The Permissions To Mute Users! - [ADMINISTRATOR]**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     let member = message.mentions.members.first();
@@ -34,7 +34,7 @@ module.exports = {
           .setDescription(
             "ERROR, please ping a USER! Usage: `mute @User <Time+Format(e.g: 10m)> [REASON]` example: `mute @User 10m He is doing bad stuff!`"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     args.shift(); //shift args
 
@@ -48,7 +48,7 @@ module.exports = {
           .setDescription(
             ":x: I cannot mute this Member, because he is higher/Equal to your Rang Position!"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
 
@@ -60,7 +60,7 @@ module.exports = {
           .setDescription(
             "**I need the permission, to Manage Roles aka give roles**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     let time = args[0];
@@ -72,7 +72,7 @@ module.exports = {
           .setDescription(
             "**ERROR, please add a TIME! Usage: `mute @User <Time+Format(e.g: 10m)> [REASON]` example: `mute @User 10m He is doing bad stuff!`**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     args.shift();
 
@@ -96,7 +96,7 @@ module.exports = {
             .setDescription(
               "**I need the permission, to Manage Roles aka give roles**"
             )
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         );
       let highestrolepos = message.guild.me.roles.highest.position;
       console.log(Number(highestrolepos) - 1);
@@ -118,7 +118,7 @@ module.exports = {
               .setColor("RED")
               .setAuthor(message.author.tag)
               .setDescription("**I COULD NOT CREATE A ROLE, sorry**")
-              .setFooter("Coded by: Tech Boy Gaming")
+              .setFooter("Made with 💖 by araan_sheikh#4416")
           );
         });
     }
@@ -130,7 +130,7 @@ module.exports = {
           .setDescription(
             "**:x: I cannot access the Role, because it's above me!**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
     let mutetime;
@@ -144,7 +144,7 @@ module.exports = {
           .setDescription(
             "**ERROR, please add a TIME! Usage: `mute @User <Time+Format(e.g: 10m)> [REASON]` example: `mute @User 10m He is doing bad stuff!`**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
     if (!mutetime || mutetime === undefined)
@@ -155,7 +155,7 @@ module.exports = {
           .setDescription(
             "**ERROR, please add a TIME! Usage: `mute @User <Time+Format(e.g: 10m)> [REASON]` example: `mute @User 10m He is doing bad stuff!`**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
 
     await message.guild.channels.cache.forEach((ch) => {
@@ -191,7 +191,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**Something went wrong!**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
     let embed = new MessageEmbed()
@@ -231,7 +231,7 @@ module.exports = {
             .setColor("RED")
             .setAuthor(message.author.tag)
             .setDescription("**Something went wrong!**")
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         );
       }
     }, mutetime);

@@ -22,7 +22,7 @@ module.exports = {
           .setDescription(
             "**You Dont Have The Permissions To Warn Users! - [ADMINISTRATOR]**"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
 
@@ -38,7 +38,7 @@ module.exports = {
           .setDescription(
             "**Please Mention the person to who you want to Show Warns - warns @mention **"
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
 
@@ -48,7 +48,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**You can not Check The warns of bots**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
 
@@ -58,7 +58,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription("**You are not allowed to reset your warnings**")
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
 
@@ -74,7 +74,7 @@ module.exports = {
           .setColor("RED")
           .setAuthor(message.author.tag)
           .setDescription(`**${user.user.tag}** do not have any warnings`)
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       );
     }
 
@@ -87,14 +87,14 @@ module.exports = {
         .setDescription(
           `** Your all warnings are reseted by ${message.author.username} from ${message.guild.name} **`
         )
-        .setFooter("Coded by: Tech Boy Gaming")
+        .setFooter("Made with 💖 by araan_sheikh#4416")
     );
     await message.channel.send(
       new MessageEmbed()
         .setColor("RED")
         .setAuthor(message.author.tag)
         .setDescription(`Reseted all warnings of ${user.user.tag} Hehehehe`)
-        .setFooter("Coded by: Tech Boy Gaming")
+        .setFooter("Made with 💖 by araan_sheikh#4416")
     );
   },
 };

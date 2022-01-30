@@ -35,7 +35,7 @@ module.exports = {
         **aliases** : nikal\n
          **usage**: kick <@user/ID> [reason]\n `
         )
-        .setFooter("Coded by: Tech Boy Gaming")
+        .setFooter("Made with 💖 by araan_sheikh#4416")
         .setTimestamp();
       return message.channel.send(missingArgs);
     }

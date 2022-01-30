@@ -24,7 +24,7 @@ module.exports = {
             .setDescription(
               "**You Dont Have The Permissions To Warn Users! - [MANAGE_MESSAGES]**"
             )
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         )
         .then((msg) => {
           msg.delete({ timeout: 10000 });
@@ -40,7 +40,7 @@ module.exports = {
             .setDescription(
               "** Enter a valid time period in `Seconds`, `Minutes` or `Hours` **"
             )
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
         )
         .then((msg) => {
           msg.delete({ timeout: 10000 });
@@ -61,7 +61,7 @@ module.exports = {
           .setDescription(
             `** ${message.channel} has been placed under lockdown for ${time}  **`
           )
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       )
       .then((msg) => {
         msg.delete({ timeout: 10000 });
@@ -84,7 +84,7 @@ module.exports = {
           .setAuthor(message.author.tag)
           .setTitle("Channel Updates")
           .setDescription(`** Locked has been lifted in ${message.channel} **`)
-          .setFooter("Coded by: Tech Boy Gaming")
+          .setFooter("Made with 💖 by araan_sheikh#4416")
       )
       .then((msg) => {
         msg.delete({ timeout: 10000 });

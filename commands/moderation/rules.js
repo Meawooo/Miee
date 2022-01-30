@@ -95,7 +95,7 @@ module.exports = {
       .setImage(
         "https://media.discordapp.net/attachments/691896715661410365/808632776331886602/Black_and_Pink_Glitch_Gaming_Facebook_Cover_1.gif"
       )
-      .setFooter("Coded by: Tech Boy Gaming");
+      .setFooter("Made with 💖 by araan_sheikh#4416");
 
     message.channel.send(rules1);
     message.channel.send(rules2);

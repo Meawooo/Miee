@@ -34,7 +34,7 @@ module.exports = {
             `<@${user.id}>\n(\`${user.user.tag}\`)`,
             true
           )
-          .setFooter(`Coded By Tech Boy Gaming`)
+          .setFooter(`Made with 💖 by araan_sheikh#4416`)
           .setTimestamp()
           .setColor("RED")
       );
@@ -49,7 +49,7 @@ module.exports = {
               user.toString() +
               " nickname!"
           )
-          .setFooter(`Coded By Tech Boy Gaming`)
+          .setFooter(`Made with 💖 by araan_sheikh#4416`)
       );
     }
   },
