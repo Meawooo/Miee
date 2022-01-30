@@ -72,7 +72,7 @@ module.exports = {
         .addField("\u200b", `\u200b`, true)
         .addField("💻 Platform", `\`\`${os.platform()}\`\``, true)
         .addField("API Latency", `\`${client.ws.ping}ms\``, true)
-        .setFooter("Coded by: Tech Boy Gaming");
+        .setFooter("Made with 💖 by araan_sheikh#4416");
       message.channel.send(botinfo);
     });
   },

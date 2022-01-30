@@ -297,7 +297,7 @@ module.exports = {
               }`,
               `\u200b`,
             ])
-            .setFooter("Coded by: Tech Boy Gaming")
+            .setFooter("Made with 💖 by araan_sheikh#4416")
             .setTimestamp()
         );
       });

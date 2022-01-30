@@ -33,7 +33,7 @@ module.exports = {
       .setImage(
         "https://media.tenor.com/images/0dc6d37ba932ae491149cd5b747b05af/tenor.png"
       )
-      .setFooter("Coded by: Tech Boy Gaming");
+      .setFooter("Made with 💖 by araan_sheikh#4416");
 
     message.channel.send(roless);
   },

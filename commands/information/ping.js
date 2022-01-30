@@ -16,7 +16,7 @@ module.exports = {
       .setColor("RED")
       .setAuthor(message.author.tag)
       .setTitle(`🎈 Ping : ${client.ws.ping}ms`)
-      .setFooter("Coded by: Tech Boy Gaming");
+      .setFooter("Made with 💖 by araan_sheikh#4416");
     message.channel.send(ping);
   },
 };
